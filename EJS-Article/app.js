@@ -49,12 +49,3 @@ app.get('/articles', (req, res) => {
 app.listen(port, () => {
   console.log(`App listening at port ${port}`)
 })
-
-// adding a new movies.ejs
-// which uses the same footer and head files as the other pages do.
-// that displays the 3 movies similar to how the articles pages
-// does it.
-// add a new app.get route in app.js
-// extend the nav menu in footer.ejs to show a movies page.
-// When you run your app, you should be able to navigate across
-// 4 pages, including the new movies page.
